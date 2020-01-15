@@ -1,0 +1,37 @@
+    private static  HashMap<String, Integer> Lijst;
+    private static  ArrayList<String[]> Data;
+
+
+
+    Lijst = Key: IK11 & Value: 20
+    Lijst = Key: PSORT & Value: 20
+    Lijst = Key: POINT & Value: 12
+
+
+    Data = [POINT,READC,IDATE, ITIME]
+    Data = [115	12	20190101	205500]
+
+
+nieuwe hasmap maken
+
+
+Lijst heeft x aantal posities
+
+output is string van zoveel posities
+
+eerst zoeken komt key 1 in lijst voor nee dan zoveel spaties bij output string
+
+hasmap in araay [IK11, PSORT, POINT,READC,IDATE, ITIME]
+
+komt hij voor dan niets anders wordt woord vervangen door getal van aantal karakters
+
+dan door array loopen vervang woord door waarde uit andere array + spaties
+vervang getla voor stpaties
+stop dit in String.
+
+
+
+POINT
+READC
+IDATE
+ITIME
