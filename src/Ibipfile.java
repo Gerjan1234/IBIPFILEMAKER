@@ -4,6 +4,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
+/**
+ * class Ibipfile
+ * @author (Gerjan)
+ * @version (17-01-2020)
+ * Klasse voor het uitlezen van de tekst file met de data die geladen moet worden.
+ */
 public class Ibipfile {
 
     private static String IBIPMVAL;
@@ -26,6 +32,8 @@ public class Ibipfile {
         } catch (IOException e) {
             System.out.println(" werkt niet");
         }
+
+
         return File;
     }
 }
