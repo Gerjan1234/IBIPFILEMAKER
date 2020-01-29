@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import javax.swing.filechooser.FileSystemView;
+import javax.swing.plaf.FileChooserUI;
 
 /**
  * class Writer
@@ -22,8 +24,12 @@ public class Writer {
      * get dir en maak date time string voor file name.
      */
     public void getLocation() {
-        File jarDir = new File(ClassLoader.getSystemClassLoader().getResource(".").getPath());
-        this.Location = jarDir.getAbsolutePath();
+       // File jarDir = new File(ClassLoader.getSystemClassLoader().getResource(".").getPath());
+        System.out.println(System.getProperty("user.dir"));
+        this.Location = System.getProperty("user.dir");
+        File jarDir = new File(Location);
+        // this.Location = jarDir.getAbsolutePath();
+
         System.out.println(jarDir.getAbsolutePath());
         DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         Date date = new Date();
@@ -46,6 +52,8 @@ public class Writer {
             fw.close();
         }catch(Exception e){System.out.println(e);}
         System.out.println("Success...");
+        Gui gui = new Gui();
+        gui.succes(Location + "/IBIPloadfile" + dateTime + ".txt");
     }
 
     /**
@@ -54,16 +62,17 @@ public class Writer {
      * @version (17-01-2020)
      * Klasse voor schrijven van de output file voor het maken van een inlaadbestand om te vullen in excel ed.
      */
-    public void Writerinputfile(ArrayList<String> arr){
+    public String Writerinputfile(ArrayList<String> arr){
         getLocation();
         try{
-            FileWriter fw=new FileWriter(Location + "/IBIPmakefile" + dateTime + ".xls");
+            FileWriter fw=new FileWriter(Location + "/IBIPmakefile" + dateTime + ".txt");
             for(int i =0; i < arr.size(); i++) {
                 fw.write(arr.get(i) + "\t");
             }
             fw.close();
         }catch(Exception e){System.out.println(e);}
         System.out.println("Success...");
+        return Location + "/IBIPmakefile" + dateTime + ".txt";
     }
 
 }

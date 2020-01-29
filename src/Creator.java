@@ -15,8 +15,8 @@ public class Creator {
     private static String Regel;
     private static HashMap<String, Integer> lengteaanweizg;
 
-    public void Creator(){
-        getLoadFileData();
+    public void Creator(String files){
+        getLoadFileData(files);
         setBooleanIfPresent();
         makeStrings();
         Writer schrijven = new Writer();
@@ -40,9 +40,9 @@ public class Creator {
      * @version (17-01-2020)
      * Ophalen van de data uit de load file
      */
-    public void getLoadFileData() {
+    public void getLoadFileData(String files) {
         Ibipfile file = new Ibipfile();
-        this.Data = file.loadFile();  //arraylist of string[] eerste zijn we nodig voor vergelijk
+        this.Data = file.loadFile(files);  //arraylist of string[] eerste zijn we nodig voor vergelijk
     }
 
     /**

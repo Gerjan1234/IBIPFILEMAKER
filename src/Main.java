@@ -16,10 +16,16 @@ public class Main {
         Creator crea = new Creator();
         LijstB = crea.getTabel();
         Gui screen =  new Gui();
-        screen.gui();
+        screen.gui(LijstB);
        // crea.Creator();
-       screen.makelist(LijstB);
+      // screen.makelist(LijstB);
        // crea.Creator();
+    }
+
+
+    public void action(){
+
+
     }
 }
 

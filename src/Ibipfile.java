@@ -17,11 +17,12 @@ public class Ibipfile {
     private static ArrayList<String[]> File;
 
 
-    public static ArrayList<String[]> loadFile() {
+    public static ArrayList<String[]> loadFile(String file) {
         try {
             List<String> lines;
             File = new ArrayList<>();
-            IBIPMVAL = "/home/gerjan/Documenten/SAPIBIP/testfiles/meetrapport excel.txt";
+           // IBIPMVAL = "/home/gerjan/Documenten/SAPIBIP/testfiles/meetrapport excel.txt";
+            IBIPMVAL = file;
             lines = Files.readAllLines(Paths.get(IBIPMVAL), StandardCharsets.UTF_8);
             Iterator it = lines.iterator();
             while (it.hasNext()) {
