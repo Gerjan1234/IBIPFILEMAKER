@@ -6,25 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d06c9e37-4d12-439d-a247-229ee7d43ee4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Creator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Creator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Gui$MyButtonActionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Gui$MyItemListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Gui$MyItemListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Gui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/IBIPDATA/IBIPMVAL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/IBIPDATA/IBIPMVAL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Ibipfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Ibipfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Ibiptemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Ibiptemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Pojo/Pojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Pojo/Pojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAPIBIP/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAPIBIP/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ibipfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ibipfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Writer.java" afterDir="false" />
-    </list>
+    <list default="true" id="d06c9e37-4d12-439d-a247-229ee7d43ee4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="208" column="51" selection-start-line="208" selection-start-column="51" selection-end-line="208" selection-end-column="51" />
+            <state relative-caret-position="859">
+              <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,7 +215,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580332470745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580332605671" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15438822" />
@@ -310,14 +292,20 @@
       <option name="project" value="LOCAL" />
       <updated>1579295662798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update gui">
+      <created>1580332470857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580332470857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29330382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29330382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,8 +313,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,14 +336,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code opgeruimt" />
-    <option name="LAST_COMMIT_MESSAGE" value="code opgeruimt" />
+    <MESSAGE value="update gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Gui.java</url>
-          <line>123</line>
+          <line>122</line>
           <properties class="Gui.UItvoerButtonActionListener" method="actionPerformed">
             <option name="EMULATED" value="true" />
           </properties>
@@ -363,7 +352,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Gui.java</url>
-          <line>163</line>
+          <line>162</line>
           <properties class="Gui" method="makelist">
             <option name="EMULATED" value="true" />
           </properties>
@@ -371,7 +360,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui.java</url>
-          <line>98</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -474,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="208" column="51" selection-start-line="208" selection-start-column="51" selection-end-line="208" selection-end-column="51" />
+        <state relative-caret-position="859">
+          <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
