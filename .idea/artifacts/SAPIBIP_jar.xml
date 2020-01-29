@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SAPIBIP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SAPIBIP_jar</output-path>
+    <root id="archive" name="SAPIBIP.jar">
+      <element id="module-output" name="SAPIBIP" />
+    </root>
+  </artifact>
+</component>
