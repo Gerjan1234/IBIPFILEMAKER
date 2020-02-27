@@ -39,7 +39,7 @@ public class Ibiptemplate {
         LijstB.add(Default2);
         try {
             List<String> lines;
-            IBIPMVAL = "/home/gerjan/Documenten/SAPIBIP/SE12/IBIPMVAL.txt";
+            IBIPMVAL = "/home/gerjan/Documenten/SAPIBIP/SE12/IBIPMEAS.txt";
             lines = Files.readAllLines(Paths.get(IBIPMVAL), StandardCharsets.UTF_8);
             String[] test;
             TempUitvoer = new String[lines.size()];

@@ -1,4 +1,4 @@
-import IBIPDATA.IBIPMVAL;
+import IBIPDATA.*;
 import Pojo.Pojo;
 import java.util.*;
 
@@ -14,6 +14,7 @@ public class Creator {
     private static ArrayList<String> Uitvoer;
     private static String Regel;
     private static HashMap<String, Integer> lengteaanweizg;
+    private static Gui gui = new Gui();
 
     public void Creator(String files){
         getLoadFileData(files);
@@ -28,9 +29,55 @@ public class Creator {
      * @version (17-01-2020)
      * Ophalen van de data uit de IBIP tabel
      */
-    public ArrayList<Pojo> getTabel() {
-        IBIPMVAL Ibipmval = new IBIPMVAL();
-        this.LijstB = Ibipmval.inital();
+    public ArrayList<Pojo> getTabel(String ibip) {
+
+        switch (ibip) {
+
+            case "IBIPMVAL":
+                IBIPMVAL Ibipmval = new IBIPMVAL();
+                this.LijstB = Ibipmval.inital();
+                break;
+            case "IBIPMEAS":
+                IBIPMEAS Ibipmeas = new IBIPMEAS();
+                this.LijstB = Ibipmeas.inital();
+                break;
+            case "IBIPFLOC":
+                IBIPFLOC ibipfloc = new IBIPFLOC();
+                this.LijstB = ibipfloc.inital();
+                break;
+            case "IBIPOLNK":
+                IBIPOLNK ibipolnk = new IBIPOLNK();
+                this.LijstB = ibipolnk.inital();
+                break;
+            case "IBIPMPOS":
+                IBIPMPOS ibipmpos = new IBIPMPOS();
+                this.LijstB = ibipmpos.inital();
+                break;
+            case "IBIPMPLA":
+                IBIPMPLA ibipmpla = new IBIPMPLA();
+                this.LijstB = ibipmpla.inital();
+                break;
+            case "IBIPMPST":
+                IBIPMPST ibipmpst = new IBIPMPST();
+                this.LijstB = ibipmpst.inital();
+                break;
+            case "IBIPTLST":
+                IBIPTLST ibiptlst = new IBIPTLST();
+                this.LijstB = ibiptlst.inital();
+                break;
+            case "IBIPGISS":
+                System.out.println("ibibgi her is het");
+                IBIPGISS ibipgiss = new IBIPGISS();
+                this.LijstB = ibipgiss.inital();
+                break;
+            case "IBIPEQUI":
+                IBIPEQUI ibipequi = new IBIPEQUI();
+                this.LijstB = ibipequi.inital();
+                break;
+                default:
+
+        }
+        System.out.println("deze wel");
         return LijstB;
     }
 
@@ -43,6 +90,7 @@ public class Creator {
     public void getLoadFileData(String files) {
         Ibipfile file = new Ibipfile();
         this.Data = file.loadFile(files);  //arraylist of string[] eerste zijn we nodig voor vergelijk
+        gui.setterminal("file geladen aantal regels " + Data.size());
     }
 
     /**
@@ -108,6 +156,8 @@ public class Creator {
             Uitvoer.add(zz);
         }
         System.out.println(Uitvoer.size());
+        gui.setterminal("bestand omgezet ");
+
     }
 }
 

@@ -22,7 +22,7 @@ public class IBIPMVAL {
         this.List = new ArrayList<>();
         Pojo TCODE = new Pojo("TCODE", 20, "Transaction", true);
         List.add(TCODE);
-        Pojo RECORDNAME = new Pojo("RECORDNAME", 12, "Recordname", true);
+        Pojo RECORDNAME = new Pojo("RECORDNAME", 30, "Recordname", true);
         List.add(RECORDNAME);
         Pojo MDOCM = new Pojo("MDOCM", 20, "Meetrapport");
         List.add(MDOCM);

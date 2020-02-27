@@ -54,6 +54,7 @@ public class Writer {
         System.out.println("Success...");
         Gui gui = new Gui();
         gui.succes(Location + "/IBIPloadfile" + dateTime + ".txt");
+        gui.setterminal(" succes vol geschevene ");
     }
 
     /**

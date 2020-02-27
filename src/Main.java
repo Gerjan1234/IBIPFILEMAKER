@@ -1,7 +1,4 @@
-import IBIPDATA.IBIPMVAL;
 import Pojo.Pojo;
-
-import java.io.File;
 import java.util.*;
 
 /**
@@ -13,10 +10,11 @@ public class Main {
     private static ArrayList<Pojo> LijstB;
 
     public static void main(String[] args) {
-        Creator crea = new Creator();
-        LijstB = crea.getTabel();
+      //  Creator crea = new Creator();
         Gui screen =  new Gui();
-        screen.gui(LijstB);
+        screen.gui();
+        //LijstB = crea.getTabel("IBIPMEAS");
+
        // crea.Creator();
       // screen.makelist(LijstB);
        // crea.Creator();
